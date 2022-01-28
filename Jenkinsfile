@@ -8,7 +8,7 @@ pipeline{
             }
             stage('Make Files'){
                 steps{
-                    sh "touch ~/jenkins-tutorial-test/file1"
+                    sh "touch ~/FrontEndBeer/file1"
                 }
             }
         }
